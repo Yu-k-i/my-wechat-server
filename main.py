@@ -18,6 +18,13 @@ robot = WeRoBot(config=config)
 def hello_world(message):
     return 'hello world'
 
+@try:
+    pass
+except expression as identifier:
+    pass
+else:
+    pass
+
 @robot.text
 def test(message):
     return message.content
